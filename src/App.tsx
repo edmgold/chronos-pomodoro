@@ -1,10 +1,11 @@
 import './styles/theme.css';
 import './styles/global.css';
+import { Heading } from './components/Heading';
 
 export function App() {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <Heading />
       <p>This is a simple React application.</p>
     </div>
   );
