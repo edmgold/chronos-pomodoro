@@ -1,18 +1,26 @@
 import './styles/theme.css';
 import './styles/global.css';
-import { Heading } from './components/Heading';
-import { TimerIcon } from 'lucide-react';
+import { Container } from './components/Container';
 
 export function App() {
   return (
-    <div>
-      <Heading>
-        Ola Mundo
-        <button>
-          <TimerIcon />
-        </button>
-      </Heading>
-      <p>This is a simple React application.</p>
-    </div>
+    <>
+      <Container>
+        <section>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          voluptatibus atque itaque, nesciunt dolores aperiam quis doloremque
+          perferendis non? Saepe, aliquid tenetur tempora ipsam repellendus
+          debitis nobis tempore eius assumenda.
+        </section>
+      </Container>
+      <Container>
+        <section>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          voluptatibus atque itaque, nesciunt dolores aperiam quis doloremque
+          perferendis non? Saepe, aliquid tenetur tempora ipsam repellendus
+          debitis nobis tempore eius assumenda.
+        </section>
+      </Container>
+    </>
   );
 }
