@@ -1,25 +1,17 @@
 import './styles/theme.css';
 import './styles/global.css';
 import { Container } from './components/Container';
+import { Heading } from './components/Heading';
+import { Logo } from './components/Logo';
 
 export function App() {
   return (
     <>
       <Container>
-        <section>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-          voluptatibus atque itaque, nesciunt dolores aperiam quis doloremque
-          perferendis non? Saepe, aliquid tenetur tempora ipsam repellendus
-          debitis nobis tempore eius assumenda.
-        </section>
+        <Heading>Chronos</Heading>
       </Container>
       <Container>
-        <section>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-          voluptatibus atque itaque, nesciunt dolores aperiam quis doloremque
-          perferendis non? Saepe, aliquid tenetur tempora ipsam repellendus
-          debitis nobis tempore eius assumenda.
-        </section>
+        <Logo />
       </Container>
     </>
   );
