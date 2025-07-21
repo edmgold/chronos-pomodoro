@@ -14,7 +14,6 @@ export function Cycles() {
         <span className={`${styles.cycleDot} ${styles.worktime} `}></span>
         <span className={`${styles.cycleDot} ${styles.longBreakTime} `}></span>
       </div>
-      {/* Add your component logic here */}
     </div>
   );
 }
